@@ -12,7 +12,6 @@ data_files = glob.glob(os.path.join(data_dir, 'E*.mat'))
 
 choose_session = 14
 session_file = data_files[choose_session]
-print(session_file)
 session_n = sio.loadmat(session_file)
 
 # Define cell classes
